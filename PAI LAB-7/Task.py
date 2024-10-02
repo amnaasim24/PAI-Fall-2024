@@ -1,0 +1,12 @@
+import pandas as pd
+df = pd.read_csv("heart.csv")
+df = df.rename(columns={"sex": "gender"})
+print(df)
+df['gender'] = df['gender'].replace({1: 'male', 0: 'female'})
+print(df)
+print(df['chol'].mean())
+print(df['chol'].max())
+print(df['chol'].median())
+print(df[['restecg', 'chol', 'oldpeak']].mean())
+print(df[['restecg', 'chol', 'oldpeak']].median())
+print(df[['restecg', 'chol', 'oldpeak']].max())
