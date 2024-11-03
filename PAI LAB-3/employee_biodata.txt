@@ -1,0 +1,5 @@
+Name: huzaifa
+CNIC: 42101-64103218
+Age: 19
+Salary: 10000000
+Contact Number: 0331-8353847
