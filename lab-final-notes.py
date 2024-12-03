@@ -317,3 +317,71 @@ tfidf_vectorized = tfidf_vectorizer.fit_transform(docs)
 print("TFIDF Vectorizer Output:")
 print(tfidf_vectorized.toarray())
 
+
+
+
+1) Python Programming (including OOP)
+Basic Python Concepts:
+Data types: int, float, str, list, tuple, dict, set, bool.
+Variables: How to declare and use variables in Python.
+Conditional Statements: Use of if, elif, and else statements for branching.
+Loops: for loops, while loops, and nested loops.
+Functions: Defining and calling functions using def, passing arguments, return values, and scope (local vs global).
+OOP Concepts:
+Classes and Objects: How to define a class using class and create objects.
+Attributes and Methods: How to define and access attributes and methods inside a class.
+Inheritance: How subclasses inherit from parent classes and the use of super().
+Encapsulation: Using private and public attributes/methods, and understanding the importance of hiding implementation details.
+Polymorphism: Method overriding and method overloading.
+2) Graphical Visualization and Data Preprocessing
+Visualization Tools: Matplotlib and Seaborn are key libraries, make sure to know how to use them for various types of plots.
+
+Basic Plots:
+
+Lineplot: Visualize trends over time (e.g., sns.lineplot()).
+Histogram: Show the distribution of a variable (e.g., sns.histplot()).
+Scatter Plot: Show relationships between two continuous variables (e.g., sns.scatterplot()).
+Pie Chart: Show proportions (e.g., plt.pie() in Matplotlib).
+Box Plot: Visualize distributions with respect to categories (e.g., sns.boxplot()).
+Violin Plot: Combine aspects of box plot and density plot (e.g., sns.violinplot()).
+Heatmap: Display correlation matrices or other 2D data (e.g., sns.heatmap()).
+Bar Chart: Show comparison between categories (e.g., sns.barplot()).
+Pairplot: Create a grid of scatter plots to show relationships between multiple variables (e.g., sns.pairplot()).
+Data Preprocessing:
+
+Handle missing data, normalization, standardization, and encoding categorical variables.
+Be comfortable with functions like df.fillna(), df.dropna(), MinMaxScaler(), and StandardScaler() for scaling.
+Choosing the Right Plot:
+
+Understand when to use each plot type based on the data you're analyzing. For example:
+Use a line plot for continuous data over time.
+Use a box plot to compare distributions across categories.
+Use a heatmap to visualize correlations.
+3) Machine Learning
+ML Algorithms:
+
+KNN (K-Nearest Neighbors): Understand the concept of choosing k neighbors and how it works in both classification and regression. Practice how to implement it using KNeighborsClassifier() or KNeighborsRegressor().
+KMeans Clustering: Understand how to use KMeans for unsupervised learning to find clusters in data. Know how to choose the right number of clusters (n_clusters).
+PCA (Principal Component Analysis): Understand dimensionality reduction, how to use PCA() to reduce the number of features while preserving variance.
+Supervised vs Unsupervised Models: Know the difference between supervised (e.g., classification, regression) and unsupervised (e.g., clustering) learning.
+Training & Evaluation:
+
+Train-Test Split: Use train_test_split() and understand the importance of setting a random_state for reproducibility.
+Evaluation Metrics: Understand how to evaluate classification models using:
+Accuracy: Proportion of correct predictions.
+Confusion Matrix: Understand the components (TP, TN, FP, FN).
+F1 Score: Balance between precision and recall.
+Precision and Recall: Understand the trade-off and when each is important.
+Classification Report: Learn to interpret the output of classification_report().
+Choosing k and Neighbors:
+
+Practice experimenting with different values of k for KNN and how the model's accuracy varies.
+4) Natural Language Processing (NLP)
+Text Processing:
+Tokenization: Break down text into individual tokens (e.g., words or sentences) using libraries like nltk or spaCy.
+Stemming vs Lemmatization: Know the difference and when to use each. Stemming cuts off prefixes/suffixes, while lemmatization reduces words to their base forms.
+Stop Words: Learn how to remove common words (e.g., "and", "the") that do not add significant meaning to the text.
+Punctuation Removal: Clean text data by removing punctuation, either manually or using regular expressions.
+Text Vectorization:
+CountVectorizer: Convert text into a matrix of token counts.
+TFIDF (Term Frequency-Inverse Document Frequency): A more sophisticated way of representing text data that also considers the rarity of terms across documents.
